@@ -1,1 +1,26 @@
-sqlite3 database.db
+CREATE TABLE qq
+(
+    id           BIGINT,
+    qq_number    BIGINT,
+    phone_number INT
+);
+
+CREATE TABLE jd
+(
+    id           BIGINT,
+    name         TEXT,
+    nickname     TEXT,
+    password     TEXT,
+    email        TEXT,
+    id_number    TEXT,
+    phone_number INT
+);
+
+CREATE TABLE sf
+(
+    id           BIGINT,
+    name         TEXT,
+    phone_number INT,
+    address      TEXT
+);
+
